@@ -10,7 +10,7 @@ library(ncvreg)
 library(abess)
 # library(gcdnet)
 Rcpp::sourceCpp("/home/zhaojs/svm/huberized_svm.cpp", verbose = FALSE)
-Rcpp::sourceCpp("/home/zhaojs/svm/demo.cpp", verbose = FALSE)
+Rcpp::sourceCpp("/home/zhaojs/svm/PDS.cpp", verbose = FALSE)
 Rcpp::sourceCpp("/home/zhaojs/svm/admm2.cpp", verbose = FALSE)
 
 require(L0Learn)
